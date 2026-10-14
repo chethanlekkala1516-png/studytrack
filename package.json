@@ -1,0 +1,24 @@
+{
+  "name": "studytrack",
+  "version": "1.0.0",
+  "description": "StudyTrack - Student Daily To-Do List & Productivity Tracker",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "cd server && node index.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "test": "cd server && npm test"
+  },
+  "keywords": [
+    "studytrack",
+    "productivity",
+    "student",
+    "todo",
+    "pomodoro",
+    "react",
+    "express",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "ISC"
+}
